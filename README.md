@@ -7,7 +7,7 @@ This Python script is a barcode scanner and inventory management system, using c
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 7/10](#Rating)
+- [Rating: 8/10](#Rating)
 
 # About
 
@@ -29,4 +29,7 @@ cv2, pyzbar, openpyxl
 
 # Rating
 
-The rating for this inventory management script is 7. It has barcode scanning capabilities but could benefit from improved error handling, robust user input validation, and a more user-friendly interface and documentation.
+The code provides two main functionalities: scanning items using a webcam and searching for items in an Excel worksheet. It efficiently leverages libraries like OpenCV and pyzbar for barcode decoding and integrates with openpyxl for Excel file manipulation. The code is relatively modular, with distinct sections for different functionalities and clear separation of concerns. It interacts effectively with the user through console input/output, prompting them for input when needed and providing feedback based on their actions.
+Error handling mechanisms, such as try-except blocks, improve the code's robustness and prevent crashes in case of unexpected errors. However, the use of global variables could lead to issues with maintainability and readability, especially as the codebase grows. Refactoring repetitive sections into reusable functions could improve code readability and reduce redundancy.
+Input validation checks for user-provided inputs, such as item names and locations, can enhance the application's robustness and prevent invalid data from being stored. Lastly, integrating a graphical user interface (GUI) could enhance the user experience, especially for functionalities like scanning items. Libraries like Tkinter or PyQt provide tools for creating intuitive and interactive user interfaces that can improve usability.
+In conclusion, the code has several pros and cons, including its functionality, modularity, user interaction, and error handling mechanisms.
