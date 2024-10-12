@@ -1,6 +1,9 @@
 # scanning_system
-
 This Python script is a barcode scanner and inventory management system, using cv2 for video frames, pyzbar for decoding, anda openpyxl for Excel. It prompts users to scan or find items, captures frames, and saves changes.
+
+[![Static Badge](https://img.shields.io/badge/cv2-black)](https://pypi.org/project/cv2/)
+[![Static Badge](https://img.shields.io/badge/pyzbar-green)](https://pypi.org/project/pyzbar/)
+[![Static Badge](https://img.shields.io/badge/openpyxl-gray)](https://pypi.org/project/openpyxl/)
 
 ## Table of Contents
 
